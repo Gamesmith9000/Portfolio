@@ -1,0 +1,178 @@
+:root {
+	--background: url('images/bg.jpg') no-repeat fixed;
+	--navbar-link-transition: font-size 0.1s linear 0s;	/*saved alt: font-size 0.25s linear 0s */
+	--selection-color: black;
+	--selection-color-alt: darkgray;
+	--standard-icon-color: white;
+	--theme-border-color: #022d4d;
+	--theme-color: #024c80;
+	--theme-font-family: 'Be Vietnam', sans-serif;
+	--web-app-button-border-color-dark: #808080;
+	--web-app-button-border-color-light: white;
+}
+
+::selection {
+	background-color: var(--selection-color);
+}
+
+a.navbar__link::selection, .c-sharp-unofficial-icon::selection, .me::selection, .navbar__logo.orientation-reliant::selection, 
+.netflify-logo::selection, .skills-tools__subsection__item::selection, .skills-tools__subsection__title::selection, 
+.web-app__app-image::selection {
+	background-color: transparent;
+}
+
+a.navbar__link, a.navbar__link:hover {
+	transition: var(--navbar-link-transition);
+	-moz-transition: var(--navbar-link-transition);
+	-o-transition: var(--navbar-link-transition);
+	-webkit-transition: var(--navbar-link-transition);
+	white-space: nowrap;
+}
+
+a.navbar__link {
+	color: white;
+	font-size: 1.15rem;
+	font-weight: bold;
+	margin-top: 0.25rem;
+	text-decoration: none;
+}
+
+a.navbar__link:hover {
+	animation: link-color-to-hover 1.25s 1;
+	animation-fill-mode: forwards;
+	font-size: 1.25rem;
+	margin-top: 0.15rem;
+	overflow: visible;
+}
+
+body {
+	font-family: var(--theme-font-family);
+	margin: 0;
+	overflow-x: hidden;
+	width: 100%;
+}
+
+h1 {
+	color: white;
+	font-size: 4rem;
+	font-weight: normal;
+	margin-bottom: 0;
+	text-shadow: 0.25rem 0.25rem black;
+}
+
+h2 {
+
+	border-radius: 0.5rem;
+	border-width: 0.1rem;
+	color: white;
+	font-size: 1.75rem;
+	padding: 0, 0.5rem;
+	text-shadow: 0.25rem 0.25rem black;
+}
+
+h3.section-title {
+	font-size: 2rem;
+	font-weight: normal;
+	margin-top: 3.5rem;
+	text-align: center;
+}
+
+h3.section-title::selection, p.skills-tools__description::selection {
+	background-color: var(--selection-color-alt);
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+p {
+	text-align: center;
+}
+
+@media (orientation: landscape) {
+	.about__bio p {
+		font-size: 1.1rem;
+	}
+}
+
+@media (orientation: portrait) {
+	.about__bio p {
+		font-size: 0.85rem;
+	}
+}
+
+.divider-line {
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	border-top: 5px double #990000;		
+	width: 12rem;
+}
+
+.navbar__full-bar {
+	background-color: var(--theme-color);
+	border-bottom-style: solid;
+	border-color: var(--theme-border-color);
+	border-width: .1rem;
+	height: 2.5rem;
+	margin-left: 0;
+	margin-top: 0;
+	position: fixed;
+	width: 100%;
+	z-index: 9999; 
+}
+
+.navbar__logo {
+	cursor: default;
+	position: absolute;
+}
+
+.navbar__links-section {
+	display: grid; 
+	float: right;
+	grid-template-columns: repeat(4, 1fr);
+	height: 100%;
+	text-align: center;
+	z-index: 9999; 
+}
+
+.portrait {
+	border-color: white;
+	border-radius: 100%;
+	border-style: solid;
+	height: 9rem;
+	margin-top: 3rem;		
+}
+
+@keyframes link-color-to-hover {
+	0% {
+		color: white;
+	}
+
+	100% {
+		color: yellow
+	}
+}
+
+@media (orientation: landscape) {
+	.navbar__links-section.orientation-reliant {
+		min-width: 40%;
+	}
+
+	.navbar__logo.orientation-reliant {
+		color: white;
+		font-size: 1.5rem;
+		font-family: var(--theme-font-family);
+		font-weight: bold;
+	}
+}
+
+@media (orientation: portrait) {
+	.navbar__logo.orientation-reliant {
+		color: transparent;
+	}
+
+	.navbar__links-section.orientation-reliant {
+		width: 100%;
+	}
+}

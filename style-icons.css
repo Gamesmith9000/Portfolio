@@ -1,0 +1,144 @@
+.contact__icon:hover {
+	animation: respiration 4.5s infinite;
+}
+
+.contact__icon.mfg-icon  {
+	color: var(--standard-icon-color);
+	font-size: 4rem;
+}
+
+.c-sharp-unofficial-icon {
+	height: 4rem;
+	margin-bottom: -0.3rem;
+	margin-left: -0.25rem;
+	margin-top: -0.5rem;
+}
+
+.devicons {
+	color: var(--standard-icon-color);
+	font-size: 3rem;
+}
+
+.fa-aws, .fa-slack, .fa-stripe{
+	font-size: 2.4rem;
+}
+
+.fa-aws {
+	margin-left: 0.15rem;
+	margin-top: 0.5rem;
+}
+
+.fa-font-awesome-flag {
+	font-size: 2.45rem;
+	margin-left: 0.5rem;
+	margin-top: 0.38rem;
+}
+
+.fa-github-square {
+	font-size: 2.5rem;
+}
+
+.fa-slack {
+	margin-left: 0.47rem;
+	margin-top: 0.5rem;
+}
+
+.fa-sourcetree {
+	font-size: 2.2rem;
+	margin-left: 0.4rem;
+	margin-top: 0.57rem;
+}
+
+.fa-stripe {
+	margin-left: 0.47rem;
+	margin-top: 0.5rem;
+}
+
+.fab {
+	color: var(--standard-icon-color);
+}
+
+.netflify-logo {
+	margin-left: 0.4rem;
+	margin-top: 0.3rem;
+}
+
+.web-app__icon.devicons-bootstrap:hover {
+	color: #473367;
+}
+
+.web-app__icon.devicons-css3:hover {
+	color: #264de4;
+}
+
+.web-app__icon.devicons-git:hover {
+	color: #f34f29;
+}
+
+.web-app__icon.devicons-github_badge:hover {
+	color: #171515;
+}
+
+.web-app__icon.devicons-heroku:hover {
+	color: #9a6fcf;
+}
+
+.web-app__icon.devicons-html5:hover {
+	color: #e54c21;
+}
+
+.web-app__icon.devicons-javascript:hover {
+	color: #f0db4f;
+}
+
+.web-app__icon.devicons-jquery:hover {
+	color: #0f69af;
+}
+
+.web-app__icon.devicons-postgresql:hover {
+	color: #336791;
+}
+
+.web-app__icon.devicons-ruby:hover {
+	color: #a81501	
+}
+
+.web-app__icon.devicons-ruby_on_rails:hover {
+	color: #cc0000;
+}
+
+.web-app__icon.devicons-sass:hover {
+	color: #cd679a;
+}
+
+.web-app__icon.fa-font-awesome-flag:hover {
+	color: #339af0 ;
+}
+
+.web-app__icon.fa-stripe:hover {
+	color: #32325D;
+}
+
+.web-app__icon.fa-aws:hover {
+	color: transparent;
+	background-clip: text;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	background-image: url('images/aws-logo-bg.png');/* no-repeat center center fixed; */
+}
+
+.web-app__icon.mfg-icon {
+	font-size: 3rem;
+}
+
+@keyframes respiration {
+	0% {
+		color: var(--standard-icon-color);
+	}
+	50% {
+		color: #0262a7;
+	}
+	100% {
+		color: var(--standard-icon-color);
+	}
+}
