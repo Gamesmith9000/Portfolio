@@ -1,6 +1,6 @@
 :root {
-	--background: url('images/bg.jpg') no-repeat fixed;
-	--navbar-link-transition: font-size 0.1s linear 0s;	/*saved alt: font-size 0.25s linear 0s */
+	--background-image: url('images/bg.jpg') no-repeat fixed;
+	--navbar-link-transition: font-size 0.1s linear 0s;
 	--selection-color: black;
 	--selection-color-alt: darkgray;
 	--standard-icon-color: white;
@@ -88,7 +88,6 @@ html {
 p {
 	text-align: center;
 }
-
 
 .divider-line {
 	border-bottom: none;
