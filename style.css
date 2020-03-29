@@ -89,17 +89,6 @@ p {
 	text-align: center;
 }
 
-@media (orientation: landscape) {
-	.about__bio p {
-		font-size: 1.1rem;
-	}
-}
-
-@media (orientation: portrait) {
-	.about__bio p {
-		font-size: 0.85rem;
-	}
-}
 
 .divider-line {
 	border-bottom: none;
@@ -155,6 +144,10 @@ p {
 }
 
 @media (orientation: landscape) {
+	.about__bio p {
+		font-size: 1.1rem;
+	}
+
 	.navbar__links-section.orientation-reliant {
 		min-width: 40%;
 	}
@@ -168,6 +161,10 @@ p {
 }
 
 @media (orientation: portrait) {
+	.about__bio p {
+		font-size: 0.85rem;
+	}
+
 	.navbar__logo.orientation-reliant {
 		color: transparent;
 	}
