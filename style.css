@@ -84,6 +84,13 @@ html {
 	scroll-behavior: smooth;
 }
 
+img.background {
+	height: auto;
+	position: fixed;
+	z-index: -1;
+	width: 100%;
+}
+
 p {
 	text-align: center;
 }
@@ -128,7 +135,7 @@ p {
 	border-radius: 100%;
 	border-style: solid;
 	height: 9rem;
-	margin-top: 3rem;		
+	margin-top: 5rem;		
 }
 
 @keyframes link-color-to-hover {
