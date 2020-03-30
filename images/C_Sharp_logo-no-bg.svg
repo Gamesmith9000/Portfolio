@@ -26,13 +26,12 @@
 			<stop offset="1" style="stop-color: #290064"/>
 		</linearGradient>
 	</defs> -->
-	<!-- Removed background so as to match other logos stylistically -->
-	<g clip-path="url(#hexagon)">
+	<!-- <g clip-path="url(#hexagon)">
 		<rect fill="url(#centre)" x="222.588" y="124.487" width="267.464" height="273.493"/>
 		<polygon fill="url(#bottom)" points="490.052,407.802 145.845,208.63 -29.911,208.63 -29.911,538.353 490.052,538.353"/>
 		<polygon fill="url(#top)" points="-29.911,405.093 490.052,104.208 490.052,-14.513 -29.911,-14.513"/>
-	</g>
-
+	</g> -->
+	<!-- Removed background so as to match other logos stylistically -->
 	<path id="c" fill="#fff" d="M75.83,256.001c-0.891-148.089,197.459-213.479,282.996-75.878l-65.635,37.98
 		c-39.622-65.534-138.001-42.101-141.532,37.897c1.06,73.729,97.754,107.978,141.536,37.893l65.635,37.979
 		C283.448,462.735,79.632,415.653,75.83,256.001z"/>
