@@ -23,7 +23,9 @@
 
 .bg-cover {
 	background-color: white;
+	border-left: none;
 	display: grid;
+	width: 200%;
 	border-style: groove;
 	border-width: 0.1rem;
 	padding-top: .4rem;
@@ -224,5 +226,11 @@
 	.web-app {
 		display: grid;
 		grid-template-columns: minmax(160px, 1fr) minmax(160px, 1fr);
+	}
+}
+
+@media (orientation: landscape) {
+	.bg-cover {
+		width: 100%;
 	}
 }
