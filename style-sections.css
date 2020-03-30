@@ -95,6 +95,8 @@
 
 .skills-tools__subsection__item {
 	color:lightgrey;
+	display: grid;
+	grid-template-rows: 3rem 1fr;
 }
 
 .skills-tools__subsection__items-container {
@@ -105,7 +107,6 @@
 .skills-tools__subsection__title {
 	color: white;
 	font-size: 1.3em;
-	width: max-content;
 }
 
 .web-app {
@@ -211,7 +212,7 @@
 @media (min-width: 1024px) {
 	.skills-tools__subsection.titled-grid-row {
 		display: grid;
-		grid-template-columns: 17rem 100%;
+		grid-template-columns: 13rem 1fr;
 	}
 
 	.web-app {
