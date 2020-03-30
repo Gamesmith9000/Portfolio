@@ -1,5 +1,4 @@
 :root {
-	--background-image: url('images/bg.jpg') no-repeat fixed;
 	--navbar-link-transition: font-size 0.1s linear 0s;
 	--selection-color: black;
 	--selection-color-alt: darkgray;
@@ -46,7 +45,6 @@ a.navbar__link:hover {
 }
 
 body {
-	display: grid;
 	font-family: var(--theme-font-family);
 	margin: 0;
 	overflow-x: hidden;

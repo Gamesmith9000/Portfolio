@@ -1,3 +1,11 @@
+img.background {
+	position: fixed;
+	z-index: -1;
+	width: 100%;
+	height: auto;
+
+}
+
 .about {
 	margin-left: auto;
 	margin-right: auto;
@@ -16,14 +24,14 @@
 }
 
 .about__container {
-	background: var(--background-image);
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
 	padding-bottom: 1.5rem;
-	padding-top: 1.5rem;
-	position: static;
+} 
+
+.bg-cover {
+	background-color: white;
+	border-style: groove;
+	border-width: 0.1rem;
+	padding-top: .4rem;
 }
 
 .contact {
@@ -161,7 +169,7 @@
 	height: 2.5rem;
 	margin: .3rem 1rem;
 	max-width: 12rem;
-	min-width: 7.5rem; 
+	min-width: 8rem; 
 }
 
 .web-app__link-button:hover {
