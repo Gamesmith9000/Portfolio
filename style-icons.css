@@ -59,6 +59,15 @@
 	color: var(--standard-icon-color);
 }
 
+.firebase-logo {
+	filter: brightness(1.7) grayscale(1);
+	height: 2.5rem;
+	margin-left: 0.2rem;
+	margin-right: 0.1rem;
+	margin-top: 0.3rem;
+	width: 1.82rem;
+}
+
 .netlify-logo {
 	margin-left: 0.4rem;
 	margin-top: 0.3rem;
@@ -115,8 +124,13 @@
 .web-app__icon.devicons-trello:hover {
 	color: #0079bf;
 }
+
 .web-app__icon.fa-font-awesome-flag:hover {
 	color: #339af0 ;
+}
+
+.web-app__icon.firebase-logo:hover {
+	filter: grayscale(0);
 }
 
 .web-app__icon.fa-slack:hover {
