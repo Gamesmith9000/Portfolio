@@ -14,9 +14,10 @@
 	background-color: var(--selection-color);
 }
 
-a.navbar__link::selection, .c-sharp-unofficial-icon::selection, .navbar__logo.orientation-reliant::selection, 
-.netflify-logo::selection, .portrait::selection, .skills-tools__subsection__item::selection, 
-.skills-tools__subsection__title::selection, .web-app__app-image::selection {
+a.navbar__link::selection, .c-sharp-unofficial-icon::selection, .firebase-logo::selection, 
+.navbar__logo.orientation-reliant::selection, .netflify-logo::selection, .portrait::selection, 
+.skills-tools__subsection__item::selection, .skills-tools__subsection__title::selection, 
+.web-app__app-image::selection {
 	background-color: transparent;
 }
 
