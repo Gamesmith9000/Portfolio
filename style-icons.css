@@ -112,8 +112,19 @@
 	color: #cd679a;
 }
 
+.web-app__icon.devicons-trello:hover {
+	color: #0079bf;
+}
 .web-app__icon.fa-font-awesome-flag:hover {
 	color: #339af0 ;
+}
+
+.web-app__icon.fa-slack:hover {
+	color: transparent;
+	background-clip: text;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	background-image: url('images/slack-logo-bg.png');
 }
 
 .web-app__icon.fa-stripe:hover {
@@ -125,7 +136,7 @@
 	background-clip: text;
 	-moz-background-clip: text;
 	-webkit-background-clip: text;
-	background-image: url('images/aws-logo-bg.png');/* no-repeat center center fixed; */
+	background-image: url('images/aws-logo-bg.png');
 }
 
 .web-app__icon.mfg-icon {
