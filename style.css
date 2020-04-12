@@ -125,7 +125,7 @@ p {
 .navbar__links-section {
 	display: grid; 
 	float: right;
-	grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: repeat(5, 1fr);
 	height: 100%;
 	text-align: center;
 	z-index: 9999; 
