@@ -26,6 +26,7 @@
 	display: grid;
 	padding-top: .4rem;
 	width: 200vw;
+	border-bottom: 0;
 }
 
 .contact {
