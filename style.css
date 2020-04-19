@@ -1,4 +1,6 @@
 :root {
+	--dark-background-color: #202020;
+	--navbar-height: 2.5rem;
 	--navbar-link-transition: font-size 0.1s linear 0s;
 	--selection-color: black;
 	--selection-color-alt: darkgray;
@@ -97,13 +99,40 @@ p {
 }
 
 #credits-modal {
+	background-color: var(--dark-background-color);
+	color: white;
 	display: none;
-	/* position: fixed; */
+	position: fixed;
+	width: 100%;
 	z-index: 1;
+
+	overflow: auto;
+	left: 0;
+	top: var(--navbar-height);
+	border-bottom-color: var(--theme-border-color);
+	border-bottom-style: solid;
+	
 }
 
-.credits {
-	
+#credits-modal a {
+	color: var(--theme-color);
+}
+
+
+
+#credits-modal h2 {
+	text-align: center;
+
+	text-shadow: none;
+}
+
+.credits-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.credits-column {
+	margin-left: 2rem;
 }
 
 .divider-line {
@@ -119,7 +148,7 @@ p {
 	border-bottom-style: solid;
 	border-color: var(--theme-border-color);
 	border-width: .1rem;
-	height: 2.5rem;
+	height: var(--navbar-height);
 	margin-left: 0;
 	margin-top: 0;
 	position: fixed;
