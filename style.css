@@ -100,29 +100,24 @@ p {
 
 #credits-modal {
 	background-color: var(--dark-background-color);
-	color: white;
-	display: none;
-	position: fixed;
-	width: 100%;
-	z-index: 1;
-
-	overflow: auto;
-	left: 0;
-	top: var(--navbar-height);
 	border-bottom-color: var(--theme-border-color);
 	border-bottom-style: solid;
-	
+	color: white;
+	display: none;
+	left: 0;
+	overflow: auto;
+	position: fixed;
+	top: var(--navbar-height);
+	width: 100%;
+	z-index: 1;
 }
 
 #credits-modal a {
 	color: var(--theme-color);
 }
 
-
-
 #credits-modal h2 {
 	text-align: center;
-
 	text-shadow: none;
 }
 
@@ -133,6 +128,19 @@ p {
 
 .credits-column {
 	margin-left: 2rem;
+}
+
+.credits-column li {
+	list-style-type: none;
+	margin-left: -0.75rem;
+}
+
+.credits-column ul {
+	margin-top: 0;
+}
+
+.credits-modal-toggle-button {
+	/* This needs to be center aligned */
 }
 
 .divider-line {
