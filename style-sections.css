@@ -30,7 +30,7 @@
 }
 
 .contact {
-	background-color: #202020;
+	background-color: var(--dark-background-color);
 	color: white;
 	margin-top: 5%;
 	padding-top: 2%;
