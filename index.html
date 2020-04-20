@@ -373,7 +373,7 @@
 				</p>
 				<p>
 					<a href="mailto:smith.julian.f@gmail.com" class="contact__email-link">
-						<i class="icon-mail icon2x"></i>&nbsp; smith.julian.f@gmail.com
+						<i class="icon-mail"></i>&nbsp; smith.julian.f@gmail.com
 					</a>
 				</p>
 				<div class="contact__social-links">
@@ -382,7 +382,9 @@
 					<a href="https://twitter.com/_JulianBoolean" class="contact__icon-container-link"><i class="contact__icon mfg-icon icon-twitter"></i></a>		
 				</div>
 				<br/>
-				<button id='open-credits-modal' class="credits-modal-toggle-button">View Credits & Sources</button>
+				<div class="credits-toggling-button-container">
+					<button id='open-credits-modal' class="credits-modal-toggle-button">View Credits & Sources</button>
+				</div>
 			</div>
 			
 			<!-- Credits Modal -->
@@ -391,7 +393,7 @@
 				<h2>Credits</h2>
 				<div class="credits-container">
 					<div class="credits-column">
-						<h3>Company Logomarks</h3>
+						<h3>Logos</h3>
 							<div>Google Firebase - <a href="https://firebase.google.com/brand-guidelines" target="_blank">Logomark</a></div>
 							<div>Netlify - <a href="https://www.netlify.com/press/#logos" target="_blank">Simple Logomark Dark</a></div>
 					</div>
@@ -419,19 +421,19 @@
 						</div>
 						<div>
 							C# logo (Unofficial)
-							<!--
-							-Explanation on usage by author: 
-							-https://medium.com/@chris.mckee/c-logo-for-stickers-stuff-bca39b31cba3
-							-The licence info from the original author :
-							-https://dribbble.com/shots/799814-Standard-C-Logo#comment-2528860
-							-PNG original : https://commons.wikimedia.org/wiki/File:C_Sharp_logo.png
-							-Link to Vector Version: https://commons.wikimedia.org/wiki/File:C_Sharp_logo.svg
-							-This is modified version of the SVG, which I commented out the code that draws the background
-							-->
+							<ul>
+								<li><a href="https://medium.com/@chris.mckee/c-logo-for-stickers-stuff-bca39b31cba3" target="_blank">Usage/Origin Explanation</a></li>
+								<li><a href="https://commons.wikimedia.org/wiki/File:C_Sharp_logo.png" target="_blank">Original (PNG) version</a> by Chris McKee</li>
+								<li><a href="https://commons.wikimedia.org/wiki/File:C_Sharp_logo.svg" target="_blank">Vector (SVG) conversion</a> by 
+								<a href="https://commons.wikimedia.org/wiki/User:OmenBreeze" target="_blank">OmenBreeze</a></li>
+								<li style="display: inline;">The logo version on this page is a modified version of the SVG conversion; I commented out the code which draws the background.</li>
+							</ul>
 						</div>
 					</div>
 				</div>
-				<button id="close-credits-modal" class="credits-modal-toggle-button">Close</button>
+				<div class="credits-toggling-button-container">
+					<button id="close-credits-modal" class="credits-modal-toggle-button">Close</button>
+				</div>
 			</div>
 			<script src="creditsModal.js"></script>
 		</div>
