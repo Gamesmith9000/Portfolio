@@ -68,6 +68,11 @@
 	width: 1.82rem;
 }
 
+.icon-mail {
+	font-size: 2rem;
+	vertical-align: sub;
+}
+
 .netlify-logo {
 	margin-left: 0.4rem;
 	margin-top: 0.3rem;

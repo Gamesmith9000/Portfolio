@@ -17,7 +17,7 @@
 }
 
 a.navbar__link::selection, .c-sharp-unofficial-icon::selection, .firebase-logo::selection, 
-.navbar__logo.orientation-reliant::selection, .netflify-logo::selection, .portrait::selection, 
+.navbar__logo.orientation-reliant::selection, .netlify-logo::selection, .portrait::selection, 
 .skills-tools__subsection__item::selection, .skills-tools__subsection__title::selection, 
 .web-app__app-image::selection {
 	background-color: transparent;
@@ -140,7 +140,23 @@ p {
 }
 
 .credits-modal-toggle-button {
-	/* This needs to be center aligned */
+	background-color: black;
+	border-color: var(--web-app-button-border-color-dark) var(--web-app-button-border-color-light) var(--web-app-button-border-color-light) var(--web-app-button-border-color-dark);
+	border-radius: 2rem;
+	border-style: solid;
+	color:white;
+	padding: .125rem .5rem;
+}
+
+.credits-modal-toggle-button:hover {
+	animation: web-app__button-hover 1s infinite;
+}
+
+.credits-toggling-button-container {
+	display: grid;
+	justify-content: center;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
 }
 
 .divider-line {

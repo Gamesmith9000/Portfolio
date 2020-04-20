@@ -42,11 +42,12 @@
 }
 
 .contact__email-link {
-	background-color: dimgray;
+	background-color: black;
 	border-color: darkgrey;
+	border-radius: 1rem;
 	border-style: groove;
 	color: white;
-	padding: .75rem .5rem .25rem;
+	padding: 0.5rem;
 	text-decoration: none;
 }
 
