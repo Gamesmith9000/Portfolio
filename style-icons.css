@@ -1,4 +1,4 @@
-.contact__icon:hover {
+.contact__icon:hover, .contact__email-link {
 	animation: respiration 4.5s infinite;
 }
 
