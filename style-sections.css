@@ -203,30 +203,27 @@
 
 @keyframes web-app__button-hover {		
 	0% {
-		border-color: var(--web-app-button-border-color-light) var(--web-app-button-border-color-light) var(--web-app-button-border-color-light) var(--web-app-button-border-color-light);
-	}
-	10% {
 		border-color: var(--web-app-button-border-color-dark) var(--web-app-button-border-color-light) var(--web-app-button-border-color-light) var(--web-app-button-border-color-light);
 	}
-	20% {
+	12% {
 		border-color: var(--web-app-button-border-color-dark) var(--web-app-button-border-color-dark) var(--web-app-button-border-color-light) var(--web-app-button-border-color-light);
 	}
-	30% {
+	18% {
 		border-color: var(--web-app-button-border-color-dark) var(--web-app-button-border-color-dark) var(--web-app-button-border-color-dark) var(--web-app-button-border-color-light);
 	}
-	40% {
+	30% {
 		border-color: var(--web-app-button-border-color-dark) var(--web-app-button-border-color-dark) var(--web-app-button-border-color-dark) var(--web-app-button-border-color-dark);
 	}
-	60% {
+	50% {
 		border-color: var(--web-app-button-border-color-light) var(--web-app-button-border-color-dark) var(--web-app-button-border-color-dark) var(--web-app-button-border-color-dark);
 	}
-	70% {
+	62% {
 		border-color: var(--web-app-button-border-color-light) var(--web-app-button-border-color-light) var(--web-app-button-border-color-dark) var(--web-app-button-border-color-dark);
 	}
-	80% {
+	68% {
 		border-color: var(--web-app-button-border-color-light) var(--web-app-button-border-color-light) var(--web-app-button-border-color-light) var(--web-app-button-border-color-dark);
 	}
-	90% {
+	80% {
 		border-color: var(--web-app-button-border-color-light) var(--web-app-button-border-color-light) var(--web-app-button-border-color-light) var(--web-app-button-border-color-light);
 	}
 	100% {
