@@ -1,7 +1,3 @@
-// .credits
-// #credits-modal
-// #open-credits-modal
-
 var openCreditsModal = document.querySelector('#open-credits-modal');
 var closeCreditsModal = document.querySelector('#close-credits-modal');
 
