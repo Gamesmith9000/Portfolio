@@ -26,10 +26,11 @@
 	display: grid;
 	padding-top: .4rem;
 	width: 200vw;
+	border-bottom: 0;
 }
 
 .contact {
-	background-color: #202020;
+	background-color: var(--dark-background-color);
 	color: white;
 	margin-top: 5%;
 	padding-top: 2%;
@@ -41,11 +42,12 @@
 }
 
 .contact__email-link {
-	background-color: dimgray;
+	background-color: black;
 	border-color: darkgrey;
+	border-radius: 1rem;
 	border-style: groove;
 	color: white;
-	padding: .75rem .5rem .25rem;
+	padding: 0.5rem;
 	text-decoration: none;
 }
 
@@ -201,19 +203,31 @@
 
 @keyframes web-app__button-hover {		
 	0% {
-		border-color: var(--web-app-button-border-color-dark) var(--web-app-button-border-color-light) var(--web-app-button-border-color-light) var(--web-app-button-border-color-dark);
+		border-color: var(--web-app-button-border-color-dark) var(--web-app-button-border-color-light) var(--web-app-button-border-color-light) var(--web-app-button-border-color-light);
 	}
-	25% {
+	12% {
 		border-color: var(--web-app-button-border-color-dark) var(--web-app-button-border-color-dark) var(--web-app-button-border-color-light) var(--web-app-button-border-color-light);
 	}
-	50% {
-		border-color: var(--web-app-button-border-color-light) var(--web-app-button-border-color-dark) var(--web-app-button-border-color-dark) var(--web-app-button-border-color-light);
+	18% {
+		border-color: var(--web-app-button-border-color-dark) var(--web-app-button-border-color-dark) var(--web-app-button-border-color-dark) var(--web-app-button-border-color-light);
 	}
-	75% {
+	30% {
+		border-color: var(--web-app-button-border-color-dark) var(--web-app-button-border-color-dark) var(--web-app-button-border-color-dark) var(--web-app-button-border-color-dark);
+	}
+	50% {
+		border-color: var(--web-app-button-border-color-light) var(--web-app-button-border-color-dark) var(--web-app-button-border-color-dark) var(--web-app-button-border-color-dark);
+	}
+	62% {
 		border-color: var(--web-app-button-border-color-light) var(--web-app-button-border-color-light) var(--web-app-button-border-color-dark) var(--web-app-button-border-color-dark);
 	}
+	68% {
+		border-color: var(--web-app-button-border-color-light) var(--web-app-button-border-color-light) var(--web-app-button-border-color-light) var(--web-app-button-border-color-dark);
+	}
+	80% {
+		border-color: var(--web-app-button-border-color-light) var(--web-app-button-border-color-light) var(--web-app-button-border-color-light) var(--web-app-button-border-color-light);
+	}
 	100% {
-		border-color: var(--web-app-button-border-color-dark) var(--web-app-button-border-color-light) var(--web-app-button-border-color-light) var(--web-app-button-border-color-dark);
+		border-color: var(--web-app-button-border-color-light) var(--web-app-button-border-color-light) var(--web-app-button-border-color-light) var(--web-app-button-border-color-light);
 	}
 }
 

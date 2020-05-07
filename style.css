@@ -1,4 +1,6 @@
 :root {
+	--dark-background-color: #202020;
+	--navbar-height: 2.5rem;
 	--navbar-link-transition: font-size 0.1s linear 0s;
 	--selection-color: black;
 	--selection-color-alt: darkgray;
@@ -15,7 +17,7 @@
 }
 
 a.navbar__link::selection, .c-sharp-unofficial-icon::selection, .firebase-logo::selection, 
-.navbar__logo.orientation-reliant::selection, .netflify-logo::selection, .portrait::selection, 
+.navbar__logo.orientation-reliant::selection, .netlify-logo::selection, .portrait::selection, 
 .skills-tools__subsection__item::selection, .skills-tools__subsection__title::selection, 
 .web-app__app-image::selection {
 	background-color: transparent;
@@ -96,6 +98,67 @@ p {
 	text-align: center;
 }
 
+#credits-modal {
+	background-color: var(--dark-background-color);
+	border-bottom-color: var(--theme-border-color);
+	border-bottom-style: solid;
+	color: white;
+	display: none;
+	left: 0;
+	overflow: auto;
+	position: fixed;
+	top: var(--navbar-height);
+	width: 100%;
+	z-index: 1;
+}
+
+#credits-modal a {
+	color: var(--theme-color);
+}
+
+#credits-modal h2 {
+	text-align: center;
+	text-shadow: none;
+}
+
+.credits-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.credits-column {
+	margin-left: 2rem;
+}
+
+.credits-column li {
+	list-style-type: none;
+	margin-left: -0.75rem;
+}
+
+.credits-column ul {
+	margin-top: 0;
+}
+
+.credits-modal-toggle-button {
+	background-color: black;
+	border-color: var(--web-app-button-border-color-dark) var(--web-app-button-border-color-light) var(--web-app-button-border-color-light) var(--web-app-button-border-color-dark);
+	border-radius: 2rem;
+	border-style: solid;
+	color:white;
+	padding: .125rem .5rem;
+}
+
+.credits-modal-toggle-button:hover {
+	animation: web-app__button-hover 1s infinite;
+}
+
+.credits-toggling-button-container {
+	display: grid;
+	justify-content: center;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+}
+
 .divider-line {
 	border-bottom: none;
 	border-left: none;
@@ -109,7 +172,7 @@ p {
 	border-bottom-style: solid;
 	border-color: var(--theme-border-color);
 	border-width: .1rem;
-	height: 2.5rem;
+	height: var(--navbar-height);
 	margin-left: 0;
 	margin-top: 0;
 	position: fixed;
@@ -125,7 +188,7 @@ p {
 .navbar__links-section {
 	display: grid; 
 	float: right;
-	grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: repeat(5, 1fr);
 	height: 100%;
 	text-align: center;
 	z-index: 9999; 

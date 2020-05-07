@@ -1,4 +1,4 @@
-.contact__icon:hover {
+.contact__icon:hover, .contact__email-link:hover {
 	animation: respiration 4.5s infinite;
 }
 
@@ -66,6 +66,11 @@
 	margin-right: 0.1rem;
 	margin-top: 0.3rem;
 	width: 1.82rem;
+}
+
+.icon-mail {
+	font-size: 2rem;
+	vertical-align: sub;
 }
 
 .netlify-logo {
