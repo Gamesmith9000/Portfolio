@@ -167,6 +167,10 @@ p {
 	width: 12rem;
 }
 
+.navbar__download-link {
+	
+}
+
 .navbar__full-bar {
 	background-color: var(--theme-color);
 	border-bottom-style: solid;
@@ -188,7 +192,7 @@ p {
 .navbar__links-section {
 	display: grid; 
 	float: right;
-	grid-template-columns: repeat(5, 1fr);
+	grid-template-columns: 1fr 1fr 1fr 1fr 0.75fr 0.25fr;
 	height: 100%;
 	text-align: center;
 	z-index: 9999; 
