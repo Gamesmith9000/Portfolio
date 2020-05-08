@@ -22,4 +22,3 @@ function setCreditsModalVisibility (makeModalVisible) {
 
     }
 }
-

@@ -23,10 +23,9 @@
 	background-color: white;
 	border-style: groove;
 	border-width: 0.1rem 0;
+	border-bottom: 0;
 	display: grid;
 	padding-top: .4rem;
-	width: 200vw;
-	border-bottom: 0;
 }
 
 .contact {
@@ -69,6 +68,7 @@
 }
 
 .skills-tools__description {
+	font-size: 1rem;
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 80%;
@@ -120,18 +120,14 @@
 	border-style: solid;
 	border-width: .25rem 0 .25rem 0;
 	color: white;
-	display: grid;
-	grid-template-rows: 1fr;
-	margin-bottom: 5%;	
+/*	display: grid;
+	grid-template-rows: 1fr; */
+	margin-bottom: 5%;
 }
 
 .web-app__app-image {
+	max-width: 100%;
 	padding: 1.5% 0;
-	width: 100%;
-}
-
-.web-app__content-panel {
-	display: grid;
 }
 
 .web-app__description {
@@ -152,8 +148,9 @@
 }
 
 .web-app__image-panel {
+	align-items: center;
 	display: grid;
-	grid-template-rows: minmax(568, 100%);
+	grid-template-rows: minmax(50%, 100%);
 }
 
 .web-app__link-button {
@@ -240,6 +237,10 @@
 	.web-app {
 		display: grid;
 		grid-template-columns: minmax(160px, 1fr) minmax(160px, 1fr);
+	}
+
+	.web-app__content-panel {
+		display: grid;
 	}
 }
 
