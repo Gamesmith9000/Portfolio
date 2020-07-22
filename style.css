@@ -28,10 +28,11 @@ a.navbar__link, a.navbar__link:hover {
 }
 
 a.navbar__link {
+	align-self: center;
 	color: white;
 	font-size: 1.15rem;
 	font-weight: bold;
-	margin-top: 0.25rem;
+	margin-bottom: 0.25rem;
 	text-decoration: none;
 }
 
