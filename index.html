@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link rel="stylesheet" type="text/css" href="style-icons.css">
 		<link rel="stylesheet" type="text/css" href="style-sections.css">
@@ -391,6 +392,9 @@
 			<!-- Credits Modal -->
 
 			<div id="credits-modal">
+				<div class="credits-toggling-button-container">
+					<button id="close-credits-modal" class="credits-modal-toggle-button">Close</button>
+				</div>
 				<h2>Credits</h2>
 				<div class="credits-container">
 					<div class="credits-column">
@@ -431,9 +435,6 @@
 							</ul>
 						</div>
 					</div>
-				</div>
-				<div class="credits-toggling-button-container">
-					<button id="close-credits-modal" class="credits-modal-toggle-button">Close</button>
 				</div>
 			</div>
 			<script src="creditsModal.js"></script>
