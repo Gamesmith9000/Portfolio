@@ -86,10 +86,8 @@
 
 .skills-tools__subsection.titled-grid-row {
 	margin-bottom: .25rem;
-	margin-left: 0;
-	max-width: 100vw;
+	max-width: 100%;
 	min-width: 38rem;
-	padding: 0;
 }
 
 .skills-tools__subsections-container {
