@@ -94,6 +94,8 @@
 	background-image: linear-gradient(to right, #555555, #ababab9d);
 	border-bottom: .2em solid #535353;
 	border-top: .2em solid #535353;
+	display: grid;
+	max-width: 100%;
 }
 
 .skills-tools__subsections-container:hover {
