@@ -24,7 +24,7 @@
 	border-style: groove;
 	border-width: 0.1rem 0;
 	border-bottom: 0;
-	display: grid;
+	display: block;
 	padding-top: .4rem;
 }
 
@@ -228,7 +228,13 @@
 	}
 }
 
-@media (min-width: 1024px) {
+@media screen and (min-width: 601px) {
+	.bg-cover {
+		display: grid;
+	}
+}
+
+@media screen and (min-width: 1024px) {
 	.skills-tools__subsection.titled-grid-row {
 		display: grid;
 		grid-template-columns: 13rem 1fr;
@@ -244,7 +250,7 @@
 	}
 }
 
-@media (orientation: landscape) {
+@media screen and (orientation: landscape) {
 	.bg-cover {
 		width: 100%;
 	}
