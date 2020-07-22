@@ -24,10 +24,6 @@ a.navbar__link::selection, .c-sharp-unofficial-icon::selection, .firebase-logo::
 }
 
 a.navbar__link, a.navbar__link:hover {
-	transition: var(--navbar-link-transition);
-	-moz-transition: var(--navbar-link-transition);
-	-o-transition: var(--navbar-link-transition);
-	-webkit-transition: var(--navbar-link-transition);
 	white-space: nowrap;
 }
 
@@ -37,14 +33,6 @@ a.navbar__link {
 	font-weight: bold;
 	margin-top: 0.25rem;
 	text-decoration: none;
-}
-
-a.navbar__link:hover {
-	animation: link-color-to-hover 1.25s 1;
-	animation-fill-mode: forwards;
-	font-size: 1.25rem;
-	margin-top: 0.15rem;
-	overflow: visible;
 }
 
 body {
@@ -240,6 +228,41 @@ p {
 
 	.navbar__links-section.orientation-reliant {
 		width: 100%;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	a.navbar__link {
+		font-size: 3.5vw;
+	}
+}
+
+@media screen and (max-width: 450px) and (min-width: 401px) {
+	a.navbar__link {
+		font-size: .9rem;
+	}
+}
+
+@media screen and (max-width: 550px) and (min-width: 451px) {
+	a.navbar__link {
+		font-size: 1rem;
+	}
+}
+
+@media screen and (min-width: 550px) {
+	a.navbar__link:hover {
+		animation: link-color-to-hover 1.25s 1;
+		animation-fill-mode: forwards;
+		font-size: 1.25rem;
+		margin-top: 0.15rem;
+		overflow: visible;
+	}
+
+	a.navbar__link, a.navbar__link:hover {
+		transition: var(--navbar-link-transition);
+		-moz-transition: var(--navbar-link-transition);
+		-o-transition: var(--navbar-link-transition);
+		-webkit-transition: var(--navbar-link-transition);
 	}
 }
 
