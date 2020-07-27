@@ -267,6 +267,10 @@
 		margin-left: -17%;
 		transform: scale(.675, .675);
 	}
+
+	.skills-tools__subsections-container {
+		padding-bottom: 1rem;
+	}
 }
 
 @media screen and (min-width: 335px) and (max-width: 350px) {
@@ -275,6 +279,10 @@
 		margin-left: -15%;
 		transform: scale(.7125, .7125);
 	}
+
+	.skills-tools__subsections-container {
+		padding-bottom: .75rem;
+	}
 }
 
 @media screen and (min-width: 350px) and (max-width: 365px) {
@@ -282,6 +290,10 @@
 		margin-bottom: -3%;
 		margin-left: -13%;
 		transform: scale(.75, .75);
+	}
+
+	.skills-tools__subsections-container {
+		padding-bottom: .25rem;
 	}
 }
 
