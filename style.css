@@ -176,10 +176,10 @@ p {
 .navbar__links-section {
 	display: grid; 
 	float: right;
-	grid-template-columns: 1fr 1fr 1fr 1fr 0.75fr 0.25fr;
 	height: 100%;
 	text-align: center;
 	z-index: 9999; 
+	/* float the DL icon left*/
 }
 
 .portrait {
@@ -207,7 +207,8 @@ p {
 	}
 
 	.navbar__links-section.orientation-reliant {
-		min-width: 40%;
+		grid-template-columns: 1fr 1fr 1fr 1fr 0.75fr 0.25fr; /* VERIFY THIS*/
+		min-width: 60%;
 	}
 
 	.navbar__logo.orientation-reliant {
@@ -223,11 +224,16 @@ p {
 		font-size: 0.85rem;
 	}
 
+	.navbar__link__download-link {
+		justify-self: left;
+		margin-left: -1vw;
+	}
 	.navbar__logo.orientation-reliant {
 		color: transparent;
 	}
 
 	.navbar__links-section.orientation-reliant {
+		grid-template-columns: 19.1vw 19.1vw 19.1vw 19.1vw 19.1vw 1fr;
 		width: 100%;
 	}
 }
