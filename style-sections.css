@@ -31,6 +31,7 @@
 
 .contact {
 	background-color: var(--dark-background-color);
+	border-bottom: solid var(--dark-background-border-color) 2.5vh;
 	color: white;
 	margin-top: 5%;
 	padding-top: 2%;

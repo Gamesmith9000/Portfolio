@@ -1,4 +1,5 @@
 :root {
+	--dark-background-border-color: #141414;
 	--dark-background-color: #202020;
 	--navbar-height: 2.5rem;
 	--navbar-link-transition: font-size 0.1s linear 0s;
@@ -78,6 +79,7 @@ img.background {
 	height: auto;
 	position: fixed;
 	z-index: -1;
+	margin-top: var(--navbar-height);
 	max-width: 100vw;
 }
 
