@@ -11,6 +11,7 @@
 	--theme-font-family: 'Be Vietnam', sans-serif;
 	--web-app-button-border-color-dark: #808080;
 	--web-app-button-border-color-light: white;
+	--web-app-margin-bottom: 4vh;
 }
 
 ::selection {

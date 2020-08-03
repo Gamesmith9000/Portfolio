@@ -31,10 +31,10 @@
 
 .contact {
 	background-color: var(--dark-background-color);
-	border-bottom: solid var(--dark-background-border-color);
-	border-bottom-width: 2vh;
+	border: solid var(--dark-background-border-color);
+	border-width: 1.75vh 0;
 	color: white;
-	margin-top: 5%;
+	margin-top: calc(-1 * var(--web-app-margin-bottom));
 	padding-top: 2%;
 	padding-bottom: 2rem;
 }
@@ -124,9 +124,13 @@
 	background-color: var(--theme-color);
 	border-color: var(--theme-border-color);
 	border-style: solid;
-	border-width: .25rem 0 .25rem 0;
+	border-width: 0.25rem 0;
 	color: white;
-	margin-bottom: 5%;
+	margin-bottom: var(--web-app-margin-bottom);
+}
+
+.web-app.web-app__final-listing {
+	border-bottom: none;
 }
 
 .web-app__app-image {
@@ -232,12 +236,6 @@
 	}
 }
 
-@media screen and (max-height: 899px) {
-	.contact {
-		border-bottom-width:  2.5vh;
-		padding-bottom: 8%;
-	}
-}
 
 @media screen and (min-width: 601px) {
 	.bg-cover {
