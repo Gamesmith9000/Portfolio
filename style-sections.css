@@ -31,11 +31,12 @@
 
 .contact {
 	background-color: var(--dark-background-color);
-	border-bottom: solid var(--dark-background-border-color) 2.5vh;
+	border-bottom: solid var(--dark-background-border-color);
+	border-bottom-width: 2vh;
 	color: white;
 	margin-top: 5%;
 	padding-top: 2%;
-	padding-bottom: 8%;
+	padding-bottom: 2rem;
 }
 
 .contact h3.section-title::selection {
@@ -231,6 +232,12 @@
 	}
 }
 
+@media screen and (max-height: 899px) {
+	.contact {
+		border-bottom-width:  2.5vh;
+		padding-bottom: 8%;
+	}
+}
 
 @media screen and (min-width: 601px) {
 	.bg-cover {

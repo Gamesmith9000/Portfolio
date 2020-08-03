@@ -63,7 +63,6 @@ h2 {
 h3.section-title {
 	font-size: 2rem;
 	font-weight: normal;
-	margin-top: 3.5rem;
 	text-align: center;
 }
 
@@ -153,7 +152,9 @@ p {
 	border-bottom: none;
 	border-left: none;
 	border-right: none;
-	border-top: 5px double #990000;		
+	border-top: 5px double #990000;
+	margin-bottom: 2rem;
+	margin-top: -1rem;
 	width: 12rem;
 }
 
