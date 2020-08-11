@@ -114,6 +114,10 @@
 	color: #336791;
 }
 
+.web-app__icon.devicons-react:hover {
+	color: #53c1de;
+}
+
 .web-app__icon.devicons-ruby:hover {
 	color: #a81501	
 }
