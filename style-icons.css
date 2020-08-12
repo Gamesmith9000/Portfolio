@@ -147,7 +147,7 @@
 	background-clip: text;
 	-moz-background-clip: text;
 	-webkit-background-clip: text;
-	background-image: url('images/slack-logo-bg.png');
+	background-image: url('assets/logos/slack-logo-bg.png');
 }
 
 .web-app__icon.fa-stripe:hover {
@@ -159,7 +159,7 @@
 	background-clip: text;
 	-moz-background-clip: text;
 	-webkit-background-clip: text;
-	background-image: url('images/aws-logo-bg.png');
+	background-image: url('assets/logos/aws-logo-bg.png');
 }
 
 .web-app__icon.mfg-icon {
