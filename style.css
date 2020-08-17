@@ -107,8 +107,13 @@ p {
 }
 
 #credits-modal h2 {
+	margin: 0;
 	text-align: center;
 	text-shadow: none;
+}
+
+#credits-modal h3 {
+	margin: .25rem 0;
 }
 
 .credits-container {
@@ -117,11 +122,11 @@ p {
 }
 
 .credits-column {
-	margin-left: 2rem;
+	margin-left: 1rem;
 }
 
 .credits-column li {
-	list-style-type: none;
+	list-style-type: circle;
 	margin-left: -0.75rem;
 }
 
@@ -279,7 +284,7 @@ p {
 
 @media screen and (max-width: 600px) {
 	#credits-modal {
-		max-height: 100vh;
+		max-height: 100%;
 	}
 
 	.credits-container {
