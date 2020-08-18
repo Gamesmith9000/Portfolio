@@ -101,12 +101,13 @@ p {
 
 #credits-modal {
 	background-color: var(--dark-background-color);
-	border-bottom-color: var(--theme-border-color);
+	border-bottom-color: var(--dark-background-border-color);
 	border-bottom-style: solid;
 	color: white;
 	display: none;
 	left: 0;
-	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+	overflow-y: auto;
 	position: fixed;
 	top: var(--navbar-height);
 	max-height: calc(100vh - var(--navbar-height));
@@ -172,6 +173,11 @@ p {
 	justify-content: center;
 	margin-bottom: 1rem;
 	margin-top: 1rem;
+}
+
+.credits-toggling-button-container.credits-toggling-closer-container {
+	margin-bottom: 0.5rem;
+	margin-top: 0.25rem;
 }
 
 .divider-line {
