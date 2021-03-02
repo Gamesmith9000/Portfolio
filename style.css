@@ -88,6 +88,7 @@ html {
 }
 
 img.background {
+	animation: bg-fade-in 5s linear;
 	height: auto;
 	position: fixed;
 	z-index: -1;
@@ -225,6 +226,21 @@ p {
 	margin-top: 5rem;		
 }
 
+
+@keyframes bg-fade-in {
+	0% {
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 0.5;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
 @keyframes link-color-to-hover {
 	0% {
 		color: white;
@@ -234,7 +250,6 @@ p {
 		color: yellow
 	}
 }
-
 
 @media screen and (orientation: landscape) {
 	.about__bio p {
